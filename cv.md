@@ -27,7 +27,7 @@ function fizzBuzz(){
             console.log(fb || fizz || buzz || num);
             
             num++
-    }
+        }
 }
 fizzBuzz();
 ```
