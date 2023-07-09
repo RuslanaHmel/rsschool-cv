@@ -29,7 +29,7 @@ function fizzBuzz(){
             num++
     }
 }
-    fizzBuzz();
+fizzBuzz();
 ```
 ## Courses
 * IT-Academy
