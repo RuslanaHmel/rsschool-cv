@@ -1,0 +1,92 @@
+body{
+    background-color: #e3cec1;
+    font-family: 'Ysabeau Office', sans-serif;
+    color: #313131;
+}
+.main{
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+.main-general{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background-color: #f5f5f5;
+    padding: 0 5%;
+}
+.main-description{
+    background-color: #ffffff;
+    width: 60%;
+    padding: 0 10%;
+}
+.main-general__name{
+    padding-top: 40px;
+    color: black;
+    font-size: 50px;
+    margin-bottom: 0;
+    margin-top: 0;
+    border-bottom: 2px solid black;
+}
+.main-general__photo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 40px;
+    object-fit: cover;
+}
+.main-general__logo{
+    height: 20px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.main-list{
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+.footer-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+.main-description_list{
+    text-align: left;
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: dense;
+    grid-template-columns: repeat(2, 1fr)
+}
+.main-general__profession{
+    margin-bottom: 20%;
+    color: black;
+    font-size: 25px;
+    margin-top: 0;
+}
+.line{
+    border-bottom: 2px solid gray;
+    margin-top: 50px;
+}
+.left-margin{
+    margin-left: 10%;
+}
+header{
+    flex: 0 0 auto;
+    text-align: center;
+    height: 250px;
+}
+section{
+    flex: 1 0 auto;
+}
+footer{
+    flex: 0 0 auto;
+    margin-top: 30px;
+}
+.main-description-header{
+    height: 250px;
+}
